@@ -1,0 +1,74 @@
+#rajesh{
+	background-color: #ff4b5c;
+	color: #ffff;
+	padding-bottom: 5px;
+	padding-right: 15%;
+}
+
+.title{
+	text-align: center;
+	font-family:verdana;
+	font-size: 2.8rem;
+	padding-left: 15%;
+	color: #ffff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #919191,
+				1px 2px 1px #919191,
+				1px 3px 1px #919191,
+				1px 4px 1px #919191,
+				1px 5px 1px #919191,
+				1px 6px 1px #919191,
+				1px 18px 6px rgba(16,16,16,0.4),
+				1px 22px 10px rgba(16,16,16,0.2);
+				/*1px 25px 35px rgba(16,16,16,0.2),
+				1px 30px 60px rgba(16,16,16,0.4);
+				*/
+}
+
+h2{
+	font-family: sans-serif;
+	padding-left: 20px;
+	font-size: rem;
+}
+
+
+h3{
+	font-family: cursive;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+
+.image{
+	
+		width: 250px;
+		height: 250px;
+		}
+
+#raghava{
+	background-color: #ffc93c;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.rh{
+	padding-right: 15%;
+	padding-top: 10%;
+	padding-left: 25px;
+}
+.roberthooke{
+	width: 230px;
+	height: 230px;
+}
+
+.Explanation{
+background-color: #ffc93c;
+
+font-size:1.2rem;
+}
+
+.Expp{
+	padding-left: 5%;
+	padding-right: 15%;
+
+}
