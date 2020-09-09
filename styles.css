@@ -50,15 +50,11 @@ h3{
 	padding-top: 20px;
 	padding-left: 20px;
 }
-
 .rh{
-	padding-right: 15%;
-	padding-top: 10%;
-	padding-left: 25px;
+	padding-right: 20px;
 }
-.roberthooke{
-	width: 230px;
-	height: 230px;
+
+
 }
 
 .Explanation{
@@ -71,4 +67,8 @@ font-size:1.2rem;
 	padding-left: 5%;
 	padding-right: 15%;
 
+}
+.robert{
+	height:250px; 
+	width:250px;
 }
