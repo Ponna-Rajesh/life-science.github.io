@@ -32,8 +32,9 @@ h2{
 }
 
 
-h3{
-	font-family: cursive;
+.fr{/*
+	font-family: cursive;*/
+	font-family: verdana;
 	padding-top: 25px;
 	padding-left: 25px;
 }
@@ -71,4 +72,50 @@ font-size:1.2rem;
 .robert{
 	height:250px; 
 	width:250px;
+}
+
+						/*leeuwenhok*/
+
+#sagar{
+	background-color: #1e5f74;
+	color: white;
+	overflow: hidden;
+}
+
+.thinking-boy{
+height:150px;
+width:150px;
+float: left;
+}
+.pic{
+	width: 70%;
+	margin: 10px auto ;
+
+	
+	text-align: left;
+	line-height: 2;
+
+}
+h4{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	font-size: 2.3rem;
+}
+.avl{
+	text-align: center;
+	padding-bottom: 7px;
+	font-family: Montserrat-black;
+}
+#ekk{
+	padding-left:20px;
+	padding-bottom: 5px;
+}
+
+.image2{
+	width: 250px;
+	height: 250px;
+}
+.sentence{
+	padding-right: 20px;
+	padding-bottom: 5px;
 }
