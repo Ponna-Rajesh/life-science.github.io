@@ -1,3 +1,62 @@
+/*body*/
+.dddd{
+	border-left-color: #000;
+	border-left-width: 9px;
+	border-left-style:solid; 
+	border-right-color: #000;
+	border-right-width: 9px;
+	border-right-style:solid; 
+	border-top-color: #000;
+	border-top-width: 9px;
+	border-top-style:solid; 
+	border-bottom-color: #000;
+	border-bottom-width: 9px;
+	border-bottom-style:solid; 
+
+
+}
+/*header animation*/
+
+.headani{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	background: #000;
+}
+
+
+#bbbb{
+	position: relative;
+	font-family: sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background:linear-gradient(90deg,#000, #fff, #000);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 5s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:  rgb(255,255,255,.01);
+	background-color:#fff;
+}
+
+@keyframes animate{
+	0%
+	{
+		background-position: -500%
+	}
+	100%
+	{
+		background-position: 500%
+	}
+}
+
+
+
 #rajesh{
 	background-color: #ff4b5c;
 	color: #ffff;
@@ -6,9 +65,11 @@
 }
 
 .title{
+	
 	text-align: center;
 	font-family:verdana;
 	font-size: 2.8rem;
+	padding-top: 20px;
 	padding-left: 15%;
 	color: #ffff;
 	text-transform: uppercase;
@@ -22,8 +83,9 @@
 				1px 22px 10px rgba(16,16,16,0.2);
 				/*1px 25px 35px rgba(16,16,16,0.2),
 				1px 30px 60px rgba(16,16,16,0.4);
+
 				*/
-}
+			}
 
 h2{
 	font-family: sans-serif;
@@ -163,4 +225,78 @@ h4{
 .btn:hover {
   background: #3cb0fd;
   text-decoration: none;
+}
+
+
+
+/*footer*/
+#end{
+	background-color: #000;
+	color: #fff;
+	padding-top: 30px;
+	overflow: hidden;
+	padding-bottom: 50px;
+
+}
+
+.endh{
+	text-align: center;
+	font-family: verdana;
+
+}
+
+.rajimg{
+margin-left: 42%;
+margin-top: 15px;
+width: 150px;
+height: 150px;
+margin-bottom: 8px;
+
+
+}
+
+.endnam{
+	color:#f6f4e6;
+	margin: auto;
+	font-size:1.4rem;
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+}
+
+.endl{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.social-menu{
+margin-left: 40%;
+text-decoration: none;
+
+}
+
+.social-menu a{
+	display:inline-flex;
+	width: 40px;
+	height: 40px;
+	background: #2ec1ac;
+	color: white;
+	margin: 0px 6px;
+	border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 18px;
+
+	}
+.social-menu a:hover{
+	background:#e67e22;
+}
+
+.social-menu a i{
+	transition: 0.4s all;
+}
+
+.social-menu  a:hover i{
+	transform: scale(1.6) rotate(25deg); 
+
 }
